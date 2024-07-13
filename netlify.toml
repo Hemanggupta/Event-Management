@@ -1,8 +1,0 @@
-[build]
-  command = "npm run predeploy"
-  publish = "dist"
-
-[[redirects]]
-  from = "/api/*"
-  to = "http://localhost:5000/:splat"
-  status = 200
