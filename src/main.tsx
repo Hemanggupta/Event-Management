@@ -9,7 +9,8 @@ import 'primeicons/primeicons.css';
 import 'primereact/resources/primereact.css'; // core css
 
 // Import custom CSS files
-import './assets/_custom.css';
+import './assets/custom-css/_custom.css';
+import './assets/custom-css/_variable.css';
 
 import { PrimeReactProvider } from 'primereact/api';
 
