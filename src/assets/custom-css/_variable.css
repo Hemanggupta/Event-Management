@@ -1,3 +1,5 @@
 :root {
   --app-bg-color: #e9eaf5;
+  --app-transition: all 0.3s ease;
+  --app-border-radius: 10px;
 }

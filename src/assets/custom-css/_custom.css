@@ -13,9 +13,33 @@ html {
 
 body {
   height: 100svh;
+  max-height: 100svh;
   width: 100svw;
-  overflow: hidden;
+  max-width: 100svw;
+  /* overflow: hidden; */
   display: grid;
   place-items: center;
-  background-color: var(--app-bg-color);
+  color: var(--text-color);
+  background: url(./../../assets/Images/app-bg.jpg) no-repeat center center/cover;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: var(--app-border-radius);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: var(--app-transition);
+}
+
+.glass-card:hover {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.p-card .p-card-content {
+  padding: 0;
 }

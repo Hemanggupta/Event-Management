@@ -1,0 +1,25 @@
+.hero-card {
+  width: fit-content;
+  height: fit-content;
+}
+
+.img-wrapper {
+  max-height: 80svh;
+  aspect-ratio: 9/16;
+}
+
+.event-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--app-border-radius);
+}
+
+.register-btn {
+  transition: var(--app-transition);
+  max-width: 120px;
+}
+
+.register-btn:hover,
+.register-btn:active {
+  scale: 102%;
+}
