@@ -2,7 +2,7 @@ import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 import { useNavigate } from 'react-router-dom';
 import { ROUTER_CONSTANTS } from '../../Routes/routes.model';
-import eventImg from './../../assets/Images/event-placeholder.jpg';
+import eventImg from './../../assets/Images/event-placeholder2.jpg';
 import './Home.css';
 
 function Home() {
