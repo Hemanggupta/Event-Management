@@ -1,0 +1,13 @@
+.detail-form {
+  max-height: 80svh;
+  overflow: auto;
+  min-width: 500px;
+}
+
+.detail-form .p-float-label {
+  margin-top: 6px;
+}
+
+.detail-btn {
+  overflow: visible;
+}

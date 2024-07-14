@@ -1,8 +1,19 @@
-.p-inputtext {
-  background-color: rgba(0, 0, 0, 0.2);
+.p-inputtext,
+.p-dropdown,
+.p-fileupload-buttonbar,
+.p-fileupload-content {
+  background-color: rgba(0, 0, 0, 0.2) !important;
   border: 3px solid #424b57;
   font-weight: bold;
   line-height: 20px;
+}
+
+.p-fileupload-file-badge {
+  display: none;
+}
+
+.p-fileupload-row .p-icon {
+  scale: 2 !important;
 }
 
 .p-inputtext:focus {
@@ -19,4 +30,9 @@
 
 .text-danger {
   color: red !important;
+}
+
+.p-dropdown-items {
+  padding: 0;
+  background: transparent;
 }

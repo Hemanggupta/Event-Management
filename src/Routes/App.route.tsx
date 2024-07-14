@@ -1,5 +1,4 @@
-import { Home, OptRegistration, PageNotFound } from './routes.components';
-import { Route, ROUTER_CONSTANTS } from './routes.model';
+import { DetailForm, Home, OptRegistration, PageNotFound, Route, ROUTER_CONSTANTS } from './routes.model';
 
 export const APP_ROUTES: Route[] = [
   {
@@ -15,6 +14,11 @@ export const APP_ROUTES: Route[] = [
   {
     path: ROUTER_CONSTANTS.NOT_FOUND,
     component: PageNotFound,
+    isProtected: false
+  },
+  {
+    path: ROUTER_CONSTANTS.FORM,
+    component: DetailForm,
     isProtected: false
   }
 ];

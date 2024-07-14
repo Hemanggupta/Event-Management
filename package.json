@@ -17,12 +17,14 @@
     "primereact": "^10.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.1",
     "react-otp-input": "^3.1.1",
     "react-router-dom": "^6.24.1",
     "react-toastify": "^10.0.5",
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
+    "@hookform/devtools": "^4.3.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
