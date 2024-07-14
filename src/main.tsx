@@ -9,6 +9,7 @@ import 'primereact/resources/primereact.css';
 
 // Import custom CSS files
 import './assets/custom-css/_custom.css';
+import './assets/custom-css/_override.css';
 import './assets/custom-css/_variable.css';
 
 import { PrimeReactProvider } from 'primereact/api';

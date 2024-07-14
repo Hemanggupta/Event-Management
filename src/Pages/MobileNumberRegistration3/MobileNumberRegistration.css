@@ -1,0 +1,26 @@
+.otp-hero-img {
+  width: 220px;
+}
+
+.mobile-wrapper .p-inputnumber-input {
+  text-align: center;
+}
+
+.mobile-wrapper .otp-container input {
+  margin: 0 4px;
+  width: 40px !important;
+  aspect-ratio: 1/1;
+  border-radius: var(--app-border-radius);
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mobile-wrapper .otp-container input::-webkit-outer-spin-button,
+.mobile-wrapper input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.mobile-wrapper .otp-container input[type='number'] {
+  -moz-appearance: textfield;
+}

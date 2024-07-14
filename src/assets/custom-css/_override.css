@@ -1,0 +1,22 @@
+.p-inputtext {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid #424b57;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.p-inputtext:focus {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+.p-card .p-card-content {
+  padding: 0;
+}
+
+.p-invalid {
+  border: 3px solid red;
+}
+
+.text-danger {
+  color: red !important;
+}

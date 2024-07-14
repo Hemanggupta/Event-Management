@@ -18,7 +18,9 @@ function Home() {
           <Button
             onClick={() => navigate(ROUTER_CONSTANTS.REGISTER)}
             label="Register"
-            className="register-btn mx-auto rounded bg-warning p-button-raised p-button-rounded"
+            className="register-btn mx-auto rounded p-button-rounded"
+            size="small"
+            severity="warning"
           />
         </div>
       </Card>

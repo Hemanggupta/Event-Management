@@ -16,7 +16,6 @@
 
 .register-btn {
   transition: var(--app-transition);
-  max-width: 120px;
 }
 
 .register-btn:hover,
