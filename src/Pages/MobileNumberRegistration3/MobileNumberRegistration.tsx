@@ -27,13 +27,14 @@ function MobileNumberRegistration() {
   const handleButtonClick = () => {
     if (isMobileNumberInvalid || (isOtpSent && otp.length !== 4)) return;
     if (!isOtpSent) {
+      toast.success('OTP has been send to your phone number.');
       setIsOtpSent(true);
     } else {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
         navigate(ROUTER_CONSTANTS.HOME);
-        toast.success('OTP Verified Successfully');
+        toast.success('OTP Verified Successfully.');
       }, 2000);
     }
   };
